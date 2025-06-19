@@ -1,0 +1,181 @@
+body{
+    height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+   
+
+
+.carousel-item {
+      height: 400px;
+    }
+.carousel-item img {
+      height: 80%;
+      object-fit: cover;
+      position: relative;
+      left: 850px;
+      top: 100px;
+    }
+.text{
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: black;
+  text-align: left;
+ 
+  padding: 20px;
+  border-radius: 10px;
+}
+.text p{
+    color: gray;
+}
+
+
+.text a{
+    background: gainsboro;
+    text-decoration: none;
+    color: gray;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.feature-card {
+  background: white;
+  padding: 1rem;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+ 
+}
+
+.feature-card i {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+
+.product-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.product-section h2 {
+  margin-bottom: 2rem;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product-card {
+  background: white;
+  width: 15rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  background: #f1f1f1;
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: left;
+}
+
+.card-body h5 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.offer p {
+  background-color: #007bff;
+  color: white;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  position: relative;
+  bottom: 180px;
+}
+
+.star-rating {
+  color: #ffc107;
+  margin: 0.5rem 0;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.inc-but {
+
+  
+  padding: 5px 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  position: relative;
+  left: 190px;
+  top: 40px;
+  font-size: xx-large;
+ 
+}
+.inc-but:hover{
+      background-color: #007bff;
+      color: white;
+}
+
+.fa-heart {
+  font-size: 1.2rem;
+  color: #888;
+  cursor: pointer;
+  position: relative;
+  bottom: 290px;
+}
+.fa-heart:hover{
+   color: red;
+
+}
+.last-head{
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
